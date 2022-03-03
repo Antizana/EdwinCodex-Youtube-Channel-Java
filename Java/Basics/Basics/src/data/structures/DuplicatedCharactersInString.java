@@ -1,4 +1,8 @@
-package coding.questions.more100;
+package data.structures;
+
+/**
+ * DuplicatedCharactersInString sample code for Youtube video CH11
+ */
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -11,7 +15,7 @@ public class DuplicatedCharactersInString {
 		String string = "Hello World!".toLowerCase();
 		Map<String, Integer> map = new LinkedHashMap<>();
 		for (int i = 0; i < string.length(); i++) {
-			String currChar = "" +  string.charAt(i);
+			String currChar = "" + string.charAt(i);
 			if (map.get(currChar) != null) {
 				map.put(currChar, map.get(currChar) + 1);
 			} else {
@@ -20,7 +24,7 @@ public class DuplicatedCharactersInString {
 		}
 		System.out.println(string);
 		Iterator<Entry<String, Integer>> it = map.entrySet().iterator();
-		while(it.hasNext()) {
+		while (it.hasNext()) {
 			Entry<String, Integer> entry = it.next();
 			if (entry.getValue() > 1) {
 				System.out.print(entry.getKey());
