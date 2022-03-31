@@ -1,3 +1,7 @@
+/**
+ * Sliding Windows maximum in java, code for YouTube video CH24. 
+ */
+
 package data.structures;
 
 import java.util.ArrayList;

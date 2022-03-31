@@ -21,7 +21,10 @@ public class FindLocalMinima {
 		findLocalMinima(array4);
 }
 
-	public static void findLocalMinima(int[] array) {
+	private static final String INDEXSTR = "Index: ";
+	private static final String VALUESTR = " Value: ";
+	
+	public static int findLocalMinima(int[] array) {
 		int minimum = Integer.MAX_VALUE;
 		int index = -1;
 		for (int i = 0; i < array.length; i++) {
@@ -33,6 +36,29 @@ public class FindLocalMinima {
 				break;
 			}
 		}
-		System.out.println("Index: " + index + " Value: " + minimum); 
+		System.out.println(INDEXSTR + index + VALUESTR + minimum);
+		return index;
+	}
+	
+	public static int findlocalMinimaBinarySearch(int[] array) {
+		int low = 0;
+		int high = array.length - 1;
+		int n = array.length - 1;
+		int mid = (low + high)/2;
+		
+		if (n < 0 ) return -1;
+		
+		while(low <= high) {
+			if (low == mid && mid == high) return mid;
+			if(mid == low && mid < high && array[mid] < array[mid+1] || low < mid && mid == high &&  array[mid] < array[mid-1] || mid > low && mid < high && array[mid-1] > array[mid] && array[mid] < array[mid+1] ) {
+				return mid;
+			} else if(low < mid && array[mid - 1] < array[mid]) {
+				high = mid-1 ;
+			} else {
+				low = mid+1;
+			}
+			mid = (low + high)/2;
+		}
+		return -1;
 	}
 }

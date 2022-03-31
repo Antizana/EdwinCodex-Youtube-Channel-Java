@@ -1,3 +1,6 @@
+/**
+ * Sliding Windows maximum tests in java, code for YouTube video CH24. 
+ */
 package data.structures;
 
 import static org.junit.Assert.assertArrayEquals;
