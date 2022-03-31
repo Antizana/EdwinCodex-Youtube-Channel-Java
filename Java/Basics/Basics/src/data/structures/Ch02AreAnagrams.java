@@ -1,10 +1,13 @@
+/**
+ * Check if two strings are anagrams, code for YouTube video CH02. 
+ */
 package data.structures;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AreAnagrams {
+public class Ch02AreAnagrams {
 
 	public static void main(String[] args) {
 		System.out.println(areAnagrams("nameless", "salesmen"));

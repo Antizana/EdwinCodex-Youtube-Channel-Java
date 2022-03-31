@@ -4,7 +4,7 @@ package data.structures;
  * SearchElementRotated sample code for YouTube video CH12
  */
 
-public class SearchElementRotated {
+public class Ch12SearchElementRotated {
 
 	public static void main(String[] args) {
 		int[] arr = { 16, 19, 20, 26, 2, 5, 8, 10 };

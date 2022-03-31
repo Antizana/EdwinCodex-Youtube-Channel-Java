@@ -5,14 +5,14 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class SumClosestZeroTest {
+class Ch17SumClosestZeroTest {
 
 	@Test
 	@DisplayName("Closest Sum to Zero of { 5, 4, 3, 2, 1, -6 }")
 	void test() {
 		int[] array = { 5, 4, 3, 2, 1, -6 };
 		int[] result = { -6, 5 };
-		assertArrayEquals(result, SumClosestZero.pairWithSumClosestZero(array));
+		assertArrayEquals(result, Ch17SumClosestZero.pairWithSumClosestZero(array));
 	}
 
 	@Test
@@ -20,7 +20,7 @@ class SumClosestZeroTest {
 	void test2() {
 		int[] array = { 5, 4, 3, 2, 1, 0 };
 		int[] result = { 0, 1 };
-		assertArrayEquals(result, SumClosestZero.pairWithSumClosestZero(array));
+		assertArrayEquals(result, Ch17SumClosestZero.pairWithSumClosestZero(array));
 	}
 
 	@Test
@@ -28,7 +28,7 @@ class SumClosestZeroTest {
 	void test3() {
 		int[] array = { 1 };
 		int[] result = { Integer.MAX_VALUE, Integer.MAX_VALUE };
-		assertArrayEquals(result, SumClosestZero.pairWithSumClosestZero(array));
+		assertArrayEquals(result, Ch17SumClosestZero.pairWithSumClosestZero(array));
 	}
 
 }

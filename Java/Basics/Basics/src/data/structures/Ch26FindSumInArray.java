@@ -1,8 +1,11 @@
+/**
+ * Find subarrays with given sum in an array, code for YouTube video CH26. 
+ */
 package data.structures;
 
 import java.util.LinkedList;
 
-public class FindSumInArray {
+public class Ch26FindSumInArray {
 
 	public static void main(String[] args) {
 		int[] array = { 2, 3, 6, 4, 9, 0, 11 };

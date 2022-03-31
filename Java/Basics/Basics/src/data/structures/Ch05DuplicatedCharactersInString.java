@@ -1,7 +1,7 @@
 package data.structures;
 
 /**
- * DuplicatedCharactersInString sample code for Youtube video CH11
+ * DuplicatedCharactersInString sample code for Youtube video CH05
  */
 
 import java.util.Iterator;
@@ -9,7 +9,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class DuplicatedCharactersInString {
+public class Ch05DuplicatedCharactersInString {
 
 	public static void main(String[] args) {
 		String string = "Hello World!".toLowerCase();

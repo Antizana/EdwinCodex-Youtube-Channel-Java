@@ -6,7 +6,7 @@ package data.structures;
 
 import java.util.Arrays;
 
-public class Separate0s1s {
+public class Ch20Separate0s1s {
 
 	public static void main(String[] args) {
 		int[] array = { 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0 };

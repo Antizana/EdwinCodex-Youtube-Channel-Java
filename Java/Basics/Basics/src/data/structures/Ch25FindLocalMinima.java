@@ -4,7 +4,7 @@ package data.structures;
  * Find a Local minimum in an array, code for YouTube video CH25. 
  */
 
-public class FindLocalMinima {
+public class Ch25FindLocalMinima {
 
 	public static void main(String[] args) {
 

@@ -7,7 +7,7 @@ import java.util.Arrays;
  * same array. Differentiate mutability and immutability
  */
 
-public class SumClosestZero {
+public class Ch17SumClosestZero {
 	public static void main(String[] args) {
 		int[] array = { 5, 4, 3, 2, 1, -6 };
 		int[] clonedArray = array.clone();

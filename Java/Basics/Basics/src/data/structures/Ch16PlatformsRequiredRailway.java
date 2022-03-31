@@ -7,7 +7,7 @@ package data.structures;
 
 import java.util.Arrays;
 
-public class PlatformsRequiredRailway {
+public class Ch16PlatformsRequiredRailway {
 
 	public static void main(String[] args) {
 		int[] arrivals = { 100, 140, 150, 200, 215, 400 };

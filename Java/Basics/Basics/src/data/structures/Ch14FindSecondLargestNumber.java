@@ -4,7 +4,7 @@ package data.structures;
  * FindSecondLargestNumber sample code for Youtube video CH14
  */
 
-public class FindSecondLargestNumber {
+public class Ch14FindSecondLargestNumber {
 
 	public static void main(String[] args) {
 

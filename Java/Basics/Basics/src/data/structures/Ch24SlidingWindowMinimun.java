@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class SlidingWindowMinimun {
+public class Ch24SlidingWindowMinimun {
 
 	public static void main(String[] args) {
 		int[] array = { 2, 6, -1, 2, 4, 1, -6, 5 };

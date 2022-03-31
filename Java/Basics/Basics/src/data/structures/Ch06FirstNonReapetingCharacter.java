@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class FirstNonReapetingCharacter {
+public class Ch06FirstNonReapetingCharacter {
 
 	public static void main(String[] args) {
 		String string = "HelloHoney";
